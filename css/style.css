@@ -30,7 +30,8 @@ li a
     text-decoration: none;
 }
 
-li a:hover:not(.active) {
+li a:hover:not(.active) 
+{
     background-color: #111;
 }
 
@@ -44,8 +45,7 @@ header
     background-color: gray;
 }
 
-header img > 
-{
+header > img{
     width: 150px;
     margin-top: 10px;
     margin-left: 10px;
@@ -60,6 +60,7 @@ h1
 header > nav > ul > li {
     float: right;
 }
+
 /* Change the link color to #111 (black) on hover */
 li a:hover 
 {
@@ -67,14 +68,12 @@ li a:hover
 }
 
 /* main only */
-h3 {
-    float: right;
-}
-main > article {
+main > article 
+{
     display: inline-block;
     width: 320px;
     border: 1px dotted black;
     text-align: center;
-}
+} 
 
 /* footer only */
