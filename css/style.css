@@ -75,13 +75,21 @@ main>article {
     border: 1px dotted black;
 }
 
-main>h3>section>img {
+main>h3>section1>img {
     float: left;
     margin-right: 20px;
-    vertical-align: middle;
+    vertical-align: top;
 }
 
-main>h3>section>p {}
+main>h3>section2>img {
+    margin-right: 20px;
+    vertical-align: top;
+}
+
+main>h3>section3>img {
+    margin-right: 20px;
+    vertical-align: top;
+}
 
 
 /* footer only */
