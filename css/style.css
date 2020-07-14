@@ -1,14 +1,15 @@
 /*  entire document */
-body
-{
+
+body {
     background-color: rgb(23, 23, 68);
     font-family: Arial, Helvetica, sans-serif;
     color: white;
 }
 
+
 /*  header only */
-ul 
-{
+
+ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -16,13 +17,11 @@ ul
     background-color: #333;
 }
 
-li 
-{
+li {
     float: left;
 }
 
-li a 
-{
+li a {
     display: block;
     color: white;
     text-align: center;
@@ -30,50 +29,59 @@ li a
     text-decoration: none;
 }
 
-li a:hover:not(.active) 
-{
+li a:hover:not(.active) {
     background-color: #111;
 }
 
 .active {
     background-color: #4caf50;
 }
-header 
-{
+
+header {
     margin: 0px auto;
     width: 960px;
     background-color: gray;
 }
 
-header > img{
+header>img {
     width: 150px;
     margin-top: 10px;
     margin-left: 10px;
     float: left;
 }
 
-h1
-{
- text-align: center;
- padding: 30px;
+h1 {
+    text-align: center;
+    padding: 30px;
 }
-header > nav > ul > li {
+
+header>nav>ul>li {
     float: right;
 }
 
+
 /* Change the link color to #111 (black) on hover */
-li a:hover 
-{
+
+li a:hover {
     background-color: #111;
 }
 
+
 /* main only */
-main > article 
-{
+
+main>article {
     display: inline-block;
     width: 320px;
     border: 1px dotted black;
-    text-align: center;
-} 
+}
+
+main>h3>section>img {
+    float: left;
+    margin-right: 20px;
+    vertical-align: middle;
+}
+
+main>h3>section>p {}
+
 
 /* footer only */
